@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background: var(--bg);
+    margin: 0;
+    transition: 0.3s;
+}
+
+:root {
+    --bg: #f3f3f3;
+    --card: #fff;
+    --text: #000;
+}
+
+.dark {
+    --bg: #1a1a1a;
+    --card: #2b2b2b;
+    --text: #ffffff;
+}
+
+.container {
+    width: 400px;
+    margin: 30px auto;
+    background: var(--card);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    color: var(--text);
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    background: #0084ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.themeBtn {
+    background: gray;
+    width: 120px;
+}
+
+.post {
+    background: var(--card);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.time {
+    font-size: 12px;
+    color: gray;
+}
+
+.post button {
+    width: auto;
+    padding: 5px;
+    margin: 5px;
+}
